@@ -204,9 +204,10 @@ section.home{
 	margin-right: 10px;
 }
 .hero-text .type-container .text2{
-	color: #fc852b;
+	color: #14187b;
 	font-weight: bold;
 	padding-right: 3px;
+  text-decoration: underline;
 }
 .hero-text .type-container .text2::before{
 	content: '';
@@ -216,7 +217,7 @@ section.home{
 	top: 0;
 	left: 0;
 	background-color: var(--bg-clr-2);
-	border-left: 2px solid #fc852b;
+	border-left: 2px solid #ff8a8e;
 	animation: animationOne 5s steps(1000) infinite,
 	animationTwo 5s infinite;
 }
